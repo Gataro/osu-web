@@ -60,8 +60,8 @@ return [
         'remember' => 'จำคอมพิวเตอร์นี้',
         'title' => 'กรุณาเข้าสู่ระบบเพื่อดำเนินการต่อไป',
         'failed' => 'Incorrect login',
-        'register' => "Don't have an osu! account? Make a new one",
-        'forgot' => 'Forgotten your password?',
+        'register' => "คุณยังไม่มีบัญชี osu! ใช่หรือไม่? สร้างบัญชีใหม่ได้ที่นี่",
+        'forgot' => 'ลืมรหัสผ่าน?',
         'beta' => [
             'main' => 'Beta access is currently restricted to privileged users.',
             'small' => '(supporters will get in soon)',
@@ -75,7 +75,7 @@ return [
     ],
 
     'signup' => [
-        '_' => 'Register',
+        '_' => 'สมัครสมาชิก',
     ],
     'anonymous' => [
         'login_link' => 'click to login',
@@ -94,8 +94,8 @@ return [
         'first_members' => 'Here since the beginning',
         'is_developer' => 'osu!developer',
         'is_supporter' => 'osu!supporter',
-        'joined_at' => 'Joined :date',
-        'lastvisit' => 'Last seen :date',
+        'joined_at' => 'วันที่ลงทะเบียน :date',
+        'lastvisit' => 'เยี่ยมชมล่าสุด :date',
         'missingtext' => 'You might have made a typo! (or the user may have been banned)',
         'origin_age' => ':age',
         'origin_country_age' => ':age from :country',
@@ -107,16 +107,16 @@ return [
 
         'edit' => [
             'cover' => [
-                'button' => 'Change Profile Cover',
+                'button' => 'เปลี่ยนรูปหน้าปกโปรไฟล์',
                 'defaults_info' => 'More cover options will be available in the future',
                 'upload' => [
                     'broken_file' => 'Failed processing image. Verify uploaded image and try again.',
-                    'button' => 'Upload image',
+                    'button' => 'อัพโหลดรูปภาพ',
                     'dropzone' => 'Drop here to upload',
                     'dropzone_info' => 'You can also drop your image here to upload',
                     'restriction_info' => "Upload available for <a href='".route('store.products.show', 'supporter-tag')."' target='_blank'>osu!supporters</a> only",
-                    'size_info' => 'Cover size should be 2000x700',
-                    'too_large' => 'Uploaded file is too large.',
+                    'size_info' => 'ขนาดของหน้าปกที่แนะนำ 2000x700',
+                    'too_large' => 'ไฟล์ที่อัพโหลดมีขนาดใหญ่เกินไป.',
                     'unsupported_format' => 'Unsupported format.',
                 ],
             ],
@@ -128,7 +128,7 @@ return [
         ],
 
         'extra' => [
-            'followers' => '1 follower|:count followers',
+            'followers' => ':count follower|:count followers',
             'unranked' => 'No recent plays',
 
             'achievements' => [
@@ -136,7 +136,7 @@ return [
                 'achieved-on' => 'Achieved on :date',
             ],
             'beatmaps' => [
-                'none' => 'None... yet.',
+                'none' => 'ไม่มีเลย...',
                 'title' => 'Beatmaps',
 
                 'favourite' => [
@@ -296,16 +296,16 @@ return [
             'global' => 'Global rank for :mode',
         ],
         'stats' => [
-            'hit_accuracy' => 'Hit Accuracy',
-            'level' => 'Level :level',
-            'maximum_combo' => 'Maximum Combo',
-            'play_count' => 'Play Count',
-            'play_time' => 'เวลาการเล่นทั้งหมด',
-            'ranked_score' => 'Ranked Score',
-            'replays_watched_by_others' => 'Replays Watched by Others',
-            'score_ranks' => 'Score Ranks',
-            'total_hits' => 'Total Hits',
-            'total_score' => 'Total Score',
+            'hit_accuracy' => 'ความแม่นยำ',
+            'level' => 'เลเวล :level',
+            'maximum_combo' => 'คอมโบสูงสุด',
+            'play_count' => 'เล่นทั้งหมด',
+            'play_time' => 'เวลาเล่นทั้งหมด',
+            'ranked_score' => 'คะแนนจัดอันดับ',
+            'replays_watched_by_others' => 'รีเพลย์ที่มีคนอื่นดู',
+            'score_ranks' => 'อันดับคะแนน',
+            'total_hits' => 'จำนวนการกดทั้งหมด',
+            'total_score' => 'คะแนนรวม',
         ],
     ],
     'status' => [
