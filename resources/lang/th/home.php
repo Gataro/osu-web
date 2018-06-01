@@ -35,8 +35,8 @@ return [
         'advanced_link' => 'Advanced search',
         'button' => 'ค้นหา',
         'empty_result' => 'ไม่พบสิ่งใด!',
-        'missing_query' => 'Search keyword of minimum :n characters is required',
-        'placeholder' => 'type to search',
+        'missing_query' => 'ใส่คำที่ต้องการค้นหาอย่างน้อย :n ตัวอักษรขึ้นไป',
+        'placeholder' => 'กรุณากรอกข้อความที่คุณต้องการค้นหา',
         'title' => 'ค้นหา',
 
         'beatmapset' => [
@@ -93,18 +93,18 @@ return [
         'macos-fallback' => 'macOS users',
         'steps' => [
             'register' => [
-                'title' => 'get an account',
+                'title' => 'สมัครสมาชิก',
                 'description' => 'follow the prompts when starting the game to sign in or make a new account',
             ],
             'download' => [
-                'title' => 'download the game',
-                'description' => 'click the button above to download the installer, then run it!',
+                'title' => 'ดาวน์โหลดเกม',
+                'description' => 'คลิกที่ปุ่มด้านบนเพื่อดาวน์โหลดตัวติดตั้งจากนั้นให้เรียกใช้!',
             ],
             'beatmaps' => [
-                'title' => 'get beatmaps',
+                'title' => 'ดาวน์โหลด beatmaps',
                 'description' => [
-                    '_' => ':browse the vast library of user-created beatmaps and start playing!',
-                    'browse' => 'browse',
+                    '_' => ':browse คลัง beatmaps ที่ผู้ใช้สร้างขึ้น กดดาวน์โหลดและเริ่มเล่น!',
+                    'browse' => 'เรียกดู',
                 ],
             ],
         ],
